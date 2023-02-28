@@ -1,5 +1,22 @@
 <script>
-
+export default {
+  data() {
+    return {
+      contador: 0
+    }
+  },
+  methods: {
+    incrementarContador() {
+      this.contador++
+    },
+    decrementarContador() {
+      this.contador--
+    }
+  },
+  mounted() {
+    console.log(`O valor inicial do contador é ${this.contador}.`)
+  }
+}
 </script>
 
 <template>
