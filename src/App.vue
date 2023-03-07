@@ -15,10 +15,15 @@
 
 <style scoped>
 button{
+  height: 50px;
   border: 1px 1px black;
   outline:none; 
   color: rgb(0, 0, 0);
   background-color: rgb(255, 255, 255);
+  border-radius: 0%;
+  transition: 0.5s;
+
+
 }
 button:hover{
   border-radius: 25%;
